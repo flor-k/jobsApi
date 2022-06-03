@@ -41,14 +41,6 @@ app.use("/api/v1/jobs", authenticateUser, jobsRouter);
 
 const { required } = require("joi");
 
-app.use(express.json());
-// extra packages
-
-// routes
-app.get("/", (req, res) => {
-  res.send("jobs api");
-});
-
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
