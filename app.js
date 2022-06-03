@@ -26,13 +26,12 @@ app.use(xss());
 const connectDB = require("./db/connect");
 const authenticateUser = require("./middleware/authentication");
 
-app.use("/", (req, res) => {
-  res.send("jobs api");
-});
 //routes
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/jobs", authenticateUser, jobsRouter);
-
+app.use("/", (req, res) => {
+  res.send("jobs api");
+});
 // error handler
 const notFoundMiddleware = require("./middleware/not-found");
 const errorHandlerMiddleware = require("./middleware/error-handler");
