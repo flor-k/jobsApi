@@ -4,6 +4,7 @@
 2. cors, xss, limit-rater, etc.. for security
 3. Uploaded to Git for repo management
 4. Uploaded to Heroku (https://jobs-api-06-jk.herokuapp.com/)
+5. doc with swagger-ui-express and yamljs
 
 ### If you want to try it locally
 
