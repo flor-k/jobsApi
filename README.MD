@@ -1,6 +1,6 @@
 #### Setup
 
-follow from 8:42:39
+follow from 9:38:06
 https://www.youtube.com/watch?v=rltfdjcXjmk&t=18336s
 
 #### Setup
